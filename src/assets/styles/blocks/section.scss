@@ -1,0 +1,10 @@
+.section{
+    padding: 2rem 0;
+    display: none;
+    &__title{   
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1;
+        color: $black;
+    }
+}
