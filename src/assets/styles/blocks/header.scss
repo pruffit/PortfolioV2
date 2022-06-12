@@ -1,12 +1,18 @@
 .header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: $zHeader;
+	background-color: $white;
 	&__inner{
-		background-color: $white;
 		height: 8rem;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
 	&__logo{
+		text-decoration: none;
 		display: flex;
 		align-items: center;
 		svg{

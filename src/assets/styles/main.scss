@@ -8,30 +8,8 @@ html{
 body{
     background-color: $white;
 }
-.placeholder{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    h1{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: $black;
-        font-size: 12rem;
-        text-transform: uppercase;
-        line-height: 1;
-    }
-}
-.copyright{
-    position: fixed;
-    bottom: 2rem;
-    left: 2rem;
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 1;
-    color: $black;
-}
 .wrapper{}
-.maincontent{}
+.maincontent{
+    padding-top: 8rem;
+}
 @import "blocks/*.scss"
