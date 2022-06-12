@@ -5,6 +5,7 @@
 	right: 0;
 	z-index: $zHeader;
 	background-color: $white;
+	box-shadow: (0px 4px 4px rgba($fontColor, 0.25));
 	&__inner{
 		height: 8rem;
 		display: flex;
