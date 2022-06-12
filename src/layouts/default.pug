@@ -10,6 +10,11 @@ html(lang="en")
 		title #{title}
 	body
 		.wrapper
+			include ../partials/header.pug
 			main.maincontent
+				include ../partials/hero.pug
 				block content
+			include ../partials/footer.pug
+		include ../modals/technology.pug
+		include ../modals/experience.pug
 		script(src="assets/scripts/main.min.js")
