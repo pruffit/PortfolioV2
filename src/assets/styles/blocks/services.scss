@@ -1,0 +1,28 @@
+.services{
+	&__inner{
+		padding-top: 10rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__item{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 30rem;
+		height: 30rem;
+		background-color: $fontColor;
+		border-radius: 50%;
+		&:not(:last-child){
+			margin-right: 14.8rem;
+		}
+		h4{
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: 600;
+			font-size: 4.6rem;
+			line-height: 1.2;
+			color: $white;
+		}
+	}
+}
