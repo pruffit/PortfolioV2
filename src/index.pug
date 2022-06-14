@@ -2,7 +2,7 @@ extends layouts/default
 block variables
   - var title='Portfolio'
 block content
-  section.section.section__light
+  section.section.section__light.services
     .container
       h3.section__title.section__title_dark services
       .services__inner
@@ -20,7 +20,7 @@ block content
         .about__buttons
           a(href="#").button EXPERIENCE
           a(href="#").button TECHNOLOGY
-  section.section.section__light
+  section.section.section__light.reviews
     .container
       h3.section__title.section__title_dark reviews
   section.section.section__dark.form
@@ -29,3 +29,25 @@ block content
   section.section.section__light.faq
     .container
       h3.section__title.section__title_dark faq
+      .faq__inner
+        .accordeon
+          dl.accordeon__item
+            dt.accordeon__triger
+              span Заголовок
+              .round
+            dd.accordeon__content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ea, accusamus. Numquam non commodi ipsum debitis repudiandae amet vero itaque, deserunt, ad neque libero quae officia. Facilis non, possimus doloribus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quis voluptatem repellat? Blanditiis iste, exercitationem porro, magni amet cupiditate enim, labore tenetur, praesentium quam consequuntur nesciunt. Culpa dicta adipisci voluptatem.
+          dl.accordeon__item
+            dt.accordeon__triger
+              span Заголовок
+              .round
+            dd.accordeon__content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quis voluptatem repellat? Blanditiis iste, exercitationem porro, magni amet cupiditate enim, labore tenetur, praesentium quam consequuntur nesciunt. Culpa dicta adipisci voluptatem.
+          dl.accordeon__item
+            dt.accordeon__triger
+              span Заголовок
+              .round
+            dd.accordeon__content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ea, accusamus. Numquam non commodi ipsum debitis repudiandae amet vero itaque, deserunt, ad neque libero quae officia. Facilis non, possimus doloribus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quis voluptatem repellat? Blanditiis iste, exercitationem porro, magni amet cupiditate enim, labore tenetur, praesentium quam consequuntur nesciunt. Culpa dicta adipisci voluptatem.
+          dl.accordeon__item
+            dt.accordeon__triger
+              span Заголовок
+              .round
+            dd.accordeon__content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quis voluptatem repellat? Blanditiis iste, exercitationem porro, magni amet cupiditate enim, labore tenetur, praesentium quam consequuntur nesciunt. Culpa dicta adipisci voluptatem.
