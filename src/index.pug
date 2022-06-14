@@ -26,6 +26,19 @@ block content
   section.section.section__dark.form
     .container
       h3.section__title.section__title_light form
+      form.form__inner
+        .form__row.grid_2
+          input(type="text", placeholder="Name").input
+          input(type="tel", placeholder="Phone").input
+        .form__row.grid_1
+          textarea(placeholder="Text").input.textarea
+        .form__row.flex
+          button(type='submit').submit send
+          .checkbox 
+            input(type="checkbox", id="checkbox").checkbox__input
+            label(for="checkbox").checkbox__label
+          span Я соглашаюсь с условиями обработки 
+            a(href="#") персональных данных
   section.section.section__light.faq
     .container
       h3.section__title.section__title_dark faq
